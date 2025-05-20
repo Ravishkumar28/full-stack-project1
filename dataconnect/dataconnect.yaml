@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "menstrual-reviews-complete"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "menstrual-reviews-complete-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
