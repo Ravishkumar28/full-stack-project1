@@ -1,0 +1,137 @@
+/* src/pages/ReadStories.css */
+.read-page {
+    padding: 30px;
+    font-family: "Segoe UI", sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .read-page.dark {
+    background: #1b1b1b;
+    color: white;
+  }
+  
+  .read-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .theme-toggle {
+    background: #d63384;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+  }
+  
+  .language-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .language-buttons button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #d63384;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .language-buttons button.active,
+  .language-buttons button:hover {
+    background: #d63384;
+    color: white;
+  }
+  
+  .state-select {
+    margin-bottom: 20px;
+  }
+  
+  .state-select select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .story-card {
+    background: #fff0f8;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+    transition: 0.3s ease;
+  }
+  
+  .read-page.dark .story-card {
+    background: #2e2e2e;
+    box-shadow: 0 4px 10px rgba(255,255,255,0.05);
+  }
+  
+  .story-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    background: #d63384;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+  }
+  
+  .lang-state {
+    font-size: 0.9rem;
+    color: gray;
+  }
+  
+  .story-text {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .story-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .story-actions button {
+    background: #d63384;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .story-actions button:hover {
+    background: #ad1a69;
+    transform: scale(1.03);
+  }
+  
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  
